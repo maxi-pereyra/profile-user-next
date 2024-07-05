@@ -9,7 +9,7 @@ Asegúrate de tener instalado Node.js (versión 12.0 o superior) y npm (versión
 <hr/>
 
 # Paso 1: Clonar el repositorio
-git clone https://github.com/tu-usuario/user-profile-nextjs.git
+git clone https://github.com/maxi-pereyra/user-profile-next.git
 cd user-profile-nextjs
 <hr/>
 
