@@ -18,6 +18,7 @@ Instala las dependencias necesarias ejecutando el siguiente comando:
 
 npm install
 <hr/>
+
 # Paso 3: Ejecutar la aplicación en modo desarrollo
 Inicia la aplicación en modo desarrollo con el siguiente comando:
 
@@ -25,6 +26,7 @@ npm run dev
 
 a aplicación estará disponible en http://localhost:3000.
 <hr/>
+
 # Paso 4: Crear una versión de producción
 Para crear una versión optimizada para producción, ejecuta el siguiente comando:
 
