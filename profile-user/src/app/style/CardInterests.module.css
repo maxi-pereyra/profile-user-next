@@ -1,0 +1,60 @@
+.card{
+    background: linear-gradient(135deg,#70F570 10%,#49C628 100%);
+    margin: 12px;
+    padding: 2rem;
+    position: relative;
+    z-index: 10;
+}
+
+.card .cont_description{
+    max-height: 0px;
+    overflow: hidden;
+}
+
+.title{
+    display: inline-block;
+}
+
+
+.bandera > span {
+    width: 20px;
+    height: 4px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    cursor: pointer;
+    background-color: black;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transform: rotate(90deg);
+    transition: transform 1s;
+}
+.bandera > span:nth-child(2) {
+    width: 20px;
+    height: 4px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    cursor: pointer;
+    background-color: black;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transform: rotate(0deg);
+    transition: transform 1s;
+}
+
+.bandera.isopen > span{
+    color: rgba(0,0,0,0.5);
+    transform:  rotate(180deg) ;
+    transition: transform 1s;
+}
+.bandera.isopen > span:nth-child(2){
+    color: rgba(0,0,0,0.5);
+    transform:  rotate(180deg) ;
+    transition: transform 1s;
+}
+
+.card .cont_description.open_description{
+    max-height: max-content;
+    overflow: auto;
+}

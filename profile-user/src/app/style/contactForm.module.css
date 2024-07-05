@@ -1,0 +1,56 @@
+.input_text, .input_textarea{
+    border: thin solid #dedede;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    outline: none;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: transparent;
+}
+
+.input_textarea{
+    font-family: inherit;
+    resize: none;
+}
+
+.input_submit{
+    border: thin solid #444;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem 0 0;
+    display: inline-block;
+    background-color: #eee;
+    color: #444;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.cont_form{
+    margin: 4rem;
+}
+
+.title{
+    margin-bottom: 1rem;
+}
+
+.errors{
+    font-weight: bold;
+    color: rgb(182, 61, 61);
+}
+
+@media(max-width: 768px){
+    .cont_form{
+        margin: 0PX;
+        margin-top: 4REM;
+    }
+    
+}
